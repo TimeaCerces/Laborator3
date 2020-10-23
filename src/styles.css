@@ -1,0 +1,88 @@
+@import "https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto+Condensed:wght@300&display=swap";
+
+body {
+  background-color: #e0f0c6;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px dotted #006666;
+  background-color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #880000;
+  font-family: "Roboto Condensated", sans-serif;
+}
+
+h1 a:hover {
+  text-decoration: none;
+  color: #006666;
+}
+
+h1 a:link {
+  color: #e0f0c6;
+  text-decoration: none;
+}
+
+img {
+  border: 1px solid #9bbb59;
+  border-radius: 7px;
+  display: block;
+  padding: 7px;
+  max-width: 320px;
+  height: auto;
+}
+h2.ingred {
+  font-family: "Roboto Condensated", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  color: #880000;
+  font-weight: bold;
+}
+
+ul,
+ol {
+  font-family: "Bad Script", cursive;
+  margin: 40px;
+  padding-left: 80px;
+}
+ul.ingred {
+  /*sau simplu, .ingred */
+  color: #880000;
+  font-size: 14px;
+}
+
+ol.prepa {
+  color: #0000cc;
+  font-size: 12px;
+}
+table {
+  margin: 0 auto;
+  widht: 50%;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  font-size: 11px;
+  border: 1px solid #880000;
+}
+
+th {
+  background-color: #9bbb59;
+  font-size: 1em;
+}
+
+td {
+  widht: 25px;
+  vertical-align: middle;
+}
+td.fundal {
+  background-color: rgb(185, 238, 185);
+  text-align: center;
+  font-weight: bold;
+}
